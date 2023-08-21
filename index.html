@@ -56,6 +56,9 @@
             <!-- Slider main container -->
             <div class="swiper">
                <!-- Additional required wrapper -->
+               <!-- If  we need pagination -->
+               <div class="swiper-pagination"></div>
+
                <div class="swiper-wrapper">
                <!-- Slides -->
                <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre apache kafka e spring boot da AluraBooks"></div>
@@ -63,16 +66,44 @@
                <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre Portugal da AluraBooks"></div>
                ...
                </div>
-               <!-- If we need pagination -->
-               <div class="swiper-pagination"></div>
   
                <!-- If we need navigation buttons -->
                <div class="swiper-button-prev"></div>
                <div class="swiper-button-next"></div>
-  
-               <!-- If we need scrollbar -->
-               <div class="swiper-scrollbar"></div>
             </div>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao_titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao_titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- Segunda coluna -->
+                    <img src="img/Angular.png" class="descricao__imagem">
+                </div>
+                <!-- Segunda linha -->
+                <div class="card__botoes">
+                    <!-- Primeira coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritos livro"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- Segunda coluna -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="topicos">
+            <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="topicos__lista">
+                <li class="topicos__item">
+                    <a href="#" class="topicos_link">Android</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Marketing Digital</a>
+                </li>
+                
+            </ul>
         </section>  
         <script src="https://cdn jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <secript>
